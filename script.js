@@ -40,7 +40,7 @@ function onloadApi(tata) {
   weatherStatus.innerText = status;
   theimg.setAttribute(
     "src",
-    `https://openweathermap.org/img/wn/${Data.weather[0].icon}@2x.png`
+    `https://openweathermap.org/img/wn/${tata.weather[0].icon}@2x.png`
   );
 }
 

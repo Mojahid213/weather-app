@@ -38,8 +38,6 @@ function onloadApi(tata) {
     temp.innerText = temprature;
     weatherStatus.innerText = status;
   
-  
-    console.log(Data);
   }
 
 function getTheApi(Data) {
@@ -52,6 +50,4 @@ function getTheApi(Data) {
   temp.innerText = temprature;
   weatherStatus.innerText = status;
 
-
-  console.log(Data);
 }
